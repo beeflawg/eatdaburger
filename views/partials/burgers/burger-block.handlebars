@@ -2,7 +2,7 @@
 	{{burger_name}}
 
 	<button class="change-sleep" data-id="{{id}}" data-newsleep="{{sleep}}">
-		{{#if sleep}}Devour{{/if}}
+		{{#if sleep}}Devour{{else}}<button class="delete-cat" data-id="{{this.id}}">DELETE!{{/if}}
 	</button>
 
 </li>
